@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+
+html,body{
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid blue; */
+    position: fixed;
+    left: 0;top: 0;
+    background: url(../images/images/header.jpg) center center no-repeat;
+    background-size: cover;
+    z-index: 1000;
+}
+
+.head_inner {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.name {
+    /* justify-self: center; */
+    width: 575px;
+    height: 80px;
+    background-image: url(../images/images/LOGO.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    
+}
+
+#slide{
+    margin-top: 150px;
+}
+
+
+.section{}
+.main{
+    width: 100%;
+    height: 500px;
+    background: url(../images/images/main_bg.jpg);
+}
+.m_menu{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.m_menu > li{
+    width: 25%;
+    height: 100%;
+    /* border:1px solid red; */
+    text-align: center;
+}
+.m_menu > li > a{
+    display: block;
+    line-height: 3;
+    font-size: 30px;
+    color: beige;
+    text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 15px gray;
+
+}
+
+
+.coffee{
+    width: 100%;
+    height: 100%;
+    background: url(../images/images/coffee-7677416_640.jpg) no-repeat center center;
+    opacity: 0.5;
+    scale: 0.6;
+}
+
+.coffee:hover{
+    opacity: 1;
+    scale: 1;
+}
+
+.smoothie{width: 100%;
+    height: 100%;
+    background: url(../images/images/berries-4944590_640.jpg) no-repeat center center;
+    opacity: 0.5;
+    scale: 0.6;}
+.smoothie:hover{
+    opacity: 1;
+    scale: 1;
+}
+
+.tea{
+    width: 100%;
+    height: 100%;
+    background: url(../images/images/tea-6685081_640.jpg) no-repeat center center;
+    opacity: 0.5;
+    scale: 0.6;
+}
+.tea:hover{
+    opacity: 1;
+    scale: 1;
+}
+
+.bread{
+    width: 100%;
+    height: 100%;
+    background: url(../images/images/olive-oil-1968846_640.jpg) no-repeat center center;
+    opacity: 0.5;
+    scale: 0.6;
+}
+.bread:hover{
+    opacity: 1;
+    scale: 1;
+}
+
+
+
+.sub{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    border: 1px solid red;
+    z-index: 100;
+}
+
+.sub_1{
+    background: url(../images/images/coffee-285113_1920.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+
+}
+.sub_2{
+    background: url(../images/images/smoothies-4608349_1920.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+}
+.sub_3{
+    background: url(../images/images/tea-4044272_1920.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+}
+.sub_4{
+    background: url(../images/images/bread-4054286_1920.jpg) no-repeat center center;
+    background-size: cover;
+    display: none;
+}
+
+
+
+
+
+.sub_bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 101;
+}
+.sub_bg div{}
+.sub_bg div a{}
+.sub_bg div span{}
+
